@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  }
+}
+#!/usr/bin/env sh
+
+# install gh-pages
+npm install gh-pages --save-dev # or yarn add gh-pages --dev
+
+# generate
+npm run generate # or yarn run generate
+
+# deploy
+npm run deploy # or yarn run deploy
